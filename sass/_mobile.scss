@@ -1,0 +1,19 @@
+//Tablets to mobiles
+@media screen and (max-width: 768px) {
+  #navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 180px;
+    width: 100%;
+    background: white;
+    overflow: auto;
+  }
+  
+  #main-doc {
+  margin-left: 0;
+  margin-top: 180px;
+  }
+
+}
+
