@@ -10,13 +10,11 @@ body {
 #main-doc {
   margin: 10px 20px 20px 270px;
 }
-#main-doc p {
-  padding-left: 10px;
-}
 #main-doc pre {
   background: white;
-  margin: 0px 50px 10px 30px;
-  padding: 5px;
+  margin: 0px 40px;
+  padding: 20px;
+  white-space: pre-wrap;
 }
 
 span {
@@ -29,14 +27,14 @@ span {
   top: 0;
   height: 100%;
   width: 260px;
-  background: white;
+  background: #fff;
   padding-top: 30px;
 }
 #navbar header {
   text-align: center;
 }
 #navbar header i {
-  color: mediumorchid;
+  color: #d853d8;
 }
 #navbar header h1 {
   color: #999999;
@@ -68,12 +66,20 @@ span {
     height: 180px;
     width: 100%;
     background: white;
-    overflow: auto;
+    overflow: hidden;
+    height: 250px;
+  }
+  #navbar ul {
+    height: calc(100% - 100px);
+    overflow-y: auto;
+  }
+  #navbar header i {
+    display: none;
   }
 
   #main-doc {
     margin-left: 0;
-    margin-top: 180px;
+    margin-top: 200px;
   }
 }
 
